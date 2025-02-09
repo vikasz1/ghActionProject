@@ -32,7 +32,7 @@ jobs:
     - name: Build with Gradle Wrapper
       run: ./gradlew build
     - name: Build and Push Docker image
-      uses: mr-smithers-excellent/docker-build-push@v6
+      uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: vikasz1/ci-app
         registry: docker.io
